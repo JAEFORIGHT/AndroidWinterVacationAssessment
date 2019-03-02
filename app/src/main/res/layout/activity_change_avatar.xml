@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ChangeAvatarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <TextView
+            android:id="@+id/tv_change_avatar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_back"
+            android:text="    返回主页"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_change_avatar_add_pictures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:text="选择图片"
+            android:textColor="#FAFAFA"
+            android:textSize="15sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_change_avatar"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_change_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/selector_button_click"
+        android:text="更改头像"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp" />
+
+</LinearLayout>

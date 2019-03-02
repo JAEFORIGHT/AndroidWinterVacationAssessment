@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">逼乎</string>
+    <string name="qiniu_token">http://zzzia.net:8080/qiniu/</string>
+    <string name="qiniu_access_key">accessKey=JSz5JslQIg5StvzaySYZGnRU85ZeeobYKBLjnbul</string>
+    <string name="qiniu_secret_key">secretKey=p67Ujpx4cHOFXPsJQWeXHupmHbFx3NhzahCbyFGM</string>
+    <string name="qiniu_bucket">bucket=imgres</string>
+    <string name="qiniu_do_main_name">http://pn09wx14o.bkt.clouddn.com</string>
+    <string name="api_register">http://bihu.jay86.com/register.php</string>
+    <string name="api_question">http://bihu.jay86.com/question.php</string>
+    <string name="api_get_question_list">http://bihu.jay86.com/getQuestionList.php</string>
+    <string name="api_favorite">http://bihu.jay86.com/favorite.php</string>
+    <string name="api_cancel_favorite">http://bihu.jay86.com/cancelFavorite.php</string>
+    <string name="api_login">http://bihu.jay86.com/login.php</string>
+    <string name="api_get_favorite_list">http://bihu.jay86.com/getFavoriteList.php</string>
+    <string name="api_change_password">http://bihu.jay86.com/changePassword.php</string>
+    <string name="api_exciting">http://bihu.jay86.com/exciting.php</string>
+    <string name="api_cancel_exciting">http://bihu.jay86.com/cancelExciting.php</string>
+    <string name="api_naive">http://bihu.jay86.com/naive.php</string>
+    <string name="api_cancel_naive">http://bihu.jay86.com/cancelNaive.php</string>
+    <string name="api_modify_avatar">http://bihu.jay86.com/modifyAvatar.php</string>
+    <string name="api_answer">http://bihu.jay86.com/answer.php</string>
+    <string name="api_get_answer_list">http://bihu.jay86.com/getAnswerList.php</string>
+
+
+</resources>

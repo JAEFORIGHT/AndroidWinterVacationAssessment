@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="back">
+
+        <ImageView
+            android:id="@+id/iv_register_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/tv_register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/iv_register_back"
+            android:text="返回登录界面"
+            android:textSize="21sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_register_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="账号注册"
+        android:textColor="#2D2F31"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_register_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:hint="请输入用户名"
+        android:textColor="#2B2B2B" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="输入密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#2B2B2B" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/selector_button_click"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#FAFAFA"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/nav_menu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:icon="@drawable/selector_ic_home"
+            android:title="返回主页" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/selector_ic_quiz"
+            android:title="发表问题" />
+        <item
+            android:id="@+id/nav_see_collection"
+            android:icon="@drawable/selector_ic_collect"
+            android:title="查看收藏" />
+        <item
+            android:id="@+id/nav_change_avatar"
+            android:icon="@drawable/selector_ic_change_avatar"
+            android:title="更改头像" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/selector_ic_change_password"
+            android:title="更改密码" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="退出登录" />
+    </group>
+</menu>
