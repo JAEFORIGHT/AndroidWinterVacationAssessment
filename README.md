@@ -5,12 +5,15 @@
 |欢迎|登录和注册|修改头像|
 |---|---|---|
 |<img src="gif/welcome.gif" with="220">|<img src="gif/registerAndLogin.gif" with="220">|<img src="gif/changeAvatar.gif" with="220">|
+
 |提交问题|修改密码|查看收藏|
 |---|---|---|
 |<img src="gif/quiz.gif" with="220">|<img src="gif/changePassword.gif" with="220">|<img src="gif/seeFavorite.gif" with="220">|
-|回答点赞踩赞收藏|问题点赞踩赞收藏|查看回答
+
+|回答点赞踩赞收藏|问题点赞踩赞收藏|查看回答|
 |---|---|---|
 |<img src="gif/answerExcitingAndNaive.gif" with="220">|<img src="gif/excitingAndNaiveAndFavorite.gif" with="220">|<img src="gif/answerList.gif" with="220">|
+
 |发布回答|返回主页|退出登录|
 |---|---|---|
 |<img src="gif/answer.gif" with="220">|<img src="gif/backToMain.gif" with="220">|<img src="gif/exit.gif" with="220">|
