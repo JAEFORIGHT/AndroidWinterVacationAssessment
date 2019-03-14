@@ -58,9 +58,9 @@
 
 点击传送门下载安装包，知道有很多不合理的地方，学长学姐们要是有issue可以给我提哦
 
-[<img src="gif/portal.gif">](https://github.com/JAEFORIGHT/AndroidWinterVacationAssessment/release/BiHu_release_JAEFORIGHT.apk)
+[<img src="gif/portal.gif">](https://github.com/JAEFORIGHT/AndroidWinterVacationAssessment/blob/master/release/BiHu_release_JAEFORIGHT.apk)
 
-上面要是翻车就点[这里](https://github.com/JAEFORIGHT/AndroidWinterVacationAssessment/release/BiHu_release_JAEFORIGHT.apk)吧
+上面要是翻车就点[这里](https://github.com/JAEFORIGHT/AndroidWinterVacationAssessment/blob/master/release/BiHu_release_JAEFORIGHT.apk)吧
 
 ## 5.感谢
 
